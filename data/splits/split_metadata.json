@@ -1,0 +1,27 @@
+{
+    "config": {
+        "train_ratio": 0.7,
+        "val_ratio": 0.15,
+        "test_ratio": 0.15,
+        "seed": 42
+    },
+    "classes": {
+        "ai_generated": {
+            "total": 504,
+            "train": 352,
+            "val": 75,
+            "test": 77
+        },
+        "real": {
+            "total": 504,
+            "train": 352,
+            "val": 75,
+            "test": 77
+        }
+    },
+    "total": {
+        "train": 704,
+        "val": 150,
+        "test": 154
+    }
+}
