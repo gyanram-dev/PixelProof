@@ -1,4 +1,7 @@
 import torch
+from env_setup import setup_environment
+setup_environment()
+
 import matplotlib.pyplot as plt
 from pathlib import Path
 import random

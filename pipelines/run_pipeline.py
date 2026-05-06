@@ -2,6 +2,10 @@ import logging
 import sys
 from pathlib import Path
 import importlib.util
+from env_setup import setup_environment
+
+# Setup environment
+setup_environment()
 
 LOG_DIR = Path("data")
 LOG_FILE = LOG_DIR / "pipeline.log"
